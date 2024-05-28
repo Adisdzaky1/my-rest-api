@@ -1,6 +1,6 @@
 {
   "name": "my-rest-api",
-  "version": "1.0.0",
+  "version": "5.0.3",
   "description": "Rest api created by Zeeoneofc",
   "main": "index.js",
   "scripts": {
