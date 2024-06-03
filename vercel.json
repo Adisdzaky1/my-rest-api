@@ -18,6 +18,9 @@
     {
       "src": "/home/(.*)",
       "dest": "index.js"
+    },
+      "src": "/login/(.*)",
+      "dest": "routes/users.js"
     }
   ]
 }
