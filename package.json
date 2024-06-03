@@ -4,7 +4,7 @@
   "description": "Rest api created by Zeeoneofc",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm init -y && node index.js"
   },
   "repository": {
     "type": "git",
