@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js", //api/index ntah
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "routes/api.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/docs/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/news/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/downloader/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/cecan/(.*)",
+      "dest": "index.js"    
+    },
+     {
+      "src": "/nsfw/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/search/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/random/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/photooxy/(.*)",
+      "dest": "index.js"
+    }
+     {
+      "src": "/users/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/other/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/game/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/islam/(.*)",
+      "dest": "index.js"
+    },
+     {
+      "src": "/login/(.*)",
+      "dest": "routes/users.js"
+    },
+     {
+      "src": "/users/login/(.*)",
+      "dest": "routes/users.js"
+    },
+     {
+      "src": "/activation/(.*)",
+      "dest": "routes/users.js"
+    },
+     {
+      "src": "/users/register/(.*)",
+      "dest": "routes/users.js"
+    },
+     {
+      "src": "/logout/(.*)",
+      "dest": "routes/users.js"
+    },
+     {
+      "src": "/signup/(.*)",
+      "dest": "routes/users.js"
+    },
+  ]
+}
