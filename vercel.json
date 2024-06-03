@@ -12,11 +12,11 @@
       "dest": "/routes/api.js"
     },
     {
-      "src": "/docs/(.*)",
+      "src": "/docs",
       "dest": "/index.js"
     },
     {
-      "src": "/news/(.*)",
+      "src": "/news",
       "dest": "/index.js"
     },
     {
@@ -58,30 +58,7 @@
     {
       "src": "/islam/(.*)",
       "dest": "/index.js"
-    },
-    {
-      "src": "/login/(.*)",
-      "dest": "/routes/users.js"
-    },
-    {
-      "src": "/users/login/(.*)",
-      "dest": "/routes/users.js"
-    },
-    {
-      "src": "/activation/(.*)",
-      "dest": "/routes/users.js"
-    },
-    {
-      "src": "/users/register/(.*)",
-      "dest": "/routes/users.js"
-    },
-    {
-      "src": "/logout/(.*)",
-      "dest": "/routes/users.js"
-    },
-    {
-      "src": "/signup/(.*)",
-      "dest": "/routes/users.js"
     }
+    
   ]
 }
