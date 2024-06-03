@@ -86,6 +86,6 @@
      {
       "src": "/signup/(.*)",
       "dest": "routes/users.js"
-    },
+     }
   ]
 }
