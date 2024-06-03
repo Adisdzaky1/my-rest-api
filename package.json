@@ -1,10 +1,10 @@
-{
+
   "name": "my-rest-api",
   "version": "5.0.3",
   "description": "Rest api created by Zeeoneofc",
   "main": "index.js",
   "scripts": {
-    "start": "npm init -y && node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
