@@ -72,7 +72,6 @@ router.get('/cecan/china', async (res, next) => {
         res.set('Content-Type', 'image/png');
         res.send(body);
     });
-    limitAdd(apikey);
 })
 router.get('/cecan/vietnam', async (req, res, next) => {
     var apikey = req.query.apikey
