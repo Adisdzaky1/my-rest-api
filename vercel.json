@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@vercel/node"
+      "use": "@now/node"
     }
   ],
   "routes": [
@@ -22,6 +22,10 @@
     {
       "src": "/login/(.*)",
       "dest": "routes/users.js"
+    },
+    {
+      "src": "/docs",
+      "dest": "/index.js"
     }
   ]
 }
