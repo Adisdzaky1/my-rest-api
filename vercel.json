@@ -9,83 +9,79 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "routes/api.js"
+      "dest": "/routes/api.js"
     },
     {
-      "src": "/(.*)",
-      "dest": "index.js"
-    },
-     {
       "src": "/docs/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/news/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/downloader/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/cecan/(.*)",
-      "dest": "index.js"    
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/nsfw/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/search/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/random/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/photooxy/(.*)",
-      "dest": "index.js"
-    }
-     {
+      "dest": "/index.js"
+    },
+    {
       "src": "/users/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/other/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/game/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/islam/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
-     {
+    {
       "src": "/login/(.*)",
-      "dest": "routes/users.js"
+      "dest": "/routes/users.js"
     },
-     {
+    {
       "src": "/users/login/(.*)",
-      "dest": "routes/users.js"
+      "dest": "/routes/users.js"
     },
-     {
+    {
       "src": "/activation/(.*)",
-      "dest": "routes/users.js"
+      "dest": "/routes/users.js"
     },
-     {
+    {
       "src": "/users/register/(.*)",
-      "dest": "routes/users.js"
+      "dest": "/routes/users.js"
     },
-     {
+    {
       "src": "/logout/(.*)",
-      "dest": "routes/users.js"
+      "dest": "/routes/users.js"
     },
-     {
+    {
       "src": "/signup/(.*)",
-      "dest": "routes/users.js"
-     }
+      "dest": "/routes/users.js"
+    }
   ]
 }
