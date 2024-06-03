@@ -1,4 +1,4 @@
-__path = process.cwd()
+
 require("./settings");
 const expresiis = require('express')
 var express = require('express'),
@@ -15,7 +15,7 @@ var express = require('express'),
     cors = require ("cors"),
     schedule = require('node-schedule');
     
-const PORT = process.env.PORT || 8080 || 5000 || 3000
+const PORT = process.env.PORT || 8080 || 5000 || 3000 || 8000
 var app = express()
 var { color } = require('./lib/color.js')
 
