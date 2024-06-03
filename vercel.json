@@ -13,7 +13,7 @@
     },
     {
       "src": "/api/(.*)",
-      "dest": "/routes/api.js"
+      "dest": "/index.js"
     },
     {
       "src": "/docs/(.*)",
@@ -69,27 +69,27 @@
     },
     {
       "src": "/login/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     },
     {
       "src": "/users/login/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     },
     {
       "src": "/activation/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     },
     {
       "src": "/users/register/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     },
     {
       "src": "/logout/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     },
     {
       "src": "/signup/(.*)",
-      "dest": "/routes/users.js"
+      "dest": "/index.js"
     }
   ]
 }
